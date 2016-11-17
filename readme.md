@@ -41,7 +41,7 @@ open build/index.html in your browser
 
 #### Hot Module Replacement
 
-run the batch file 
+run the batch file
 ```
 run_dev_webpack_server
 ```
@@ -50,11 +50,11 @@ The server will host the index.html page at (http://localhost:8080)
 ### Directories
 
    build/ ==> location of HTML, CSS and generated javascript files
-   
-   src/	  ==> All the source in single directory (rather than usual directory structure) 	
+
+   src/	  ==> All the source in single directory (rather than usual directory structure)
 
 
 #### Feedback
 
-If you have this far down the document or even cloned the project and you have found a bug, I am happy to hear from you 
-
+If you have gotten this far down the document or even cloned the project - that make two of us. Hope it was useful.
+If you have found an issue or are annoyed at something, send me an email at  **smerzlia**  SECRET_EMAIL_THINGY_SYMBOL **gmail.com**.
