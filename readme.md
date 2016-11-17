@@ -1,6 +1,6 @@
 ## React Redux Demo 1
 ### Overview
-This is the simplest React-Redux Demo application I could think of. Its a single page application which adds text field input to al list - that's it.
+This is the simplest React-Redux Demo application I could think of. It's a single page application which adds text field input to a list - that's it.
 
 I did this because I had trouble finding a simple, fulling working example and lots of Functional Programming gobbledegook instead.
 
