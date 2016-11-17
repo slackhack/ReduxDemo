@@ -33,13 +33,10 @@ export default class ItemList extends React.Component {
             return <li key={i.id}>{i.data}</li>
         });
 
-        return (<div className="item-panel">
-                <p> List of Added Items</p>
-                <div className="items">
-                    <ul>
-                        {itemList}
-                    </ul>
-                </div>
+        return (<div className="items">
+                <ul>
+                    {itemList}
+                </ul>
             </div>
         );
     }

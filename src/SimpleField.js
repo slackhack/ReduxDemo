@@ -16,15 +16,13 @@ export default class SimpleField extends React.Component {
     }
 
     save() {
-        let text = this.refs.data.value;
-        listStore.dispatch(Creator.addItemAction(text))
+        listStore.dispatch(Creator.addItemAction(this.refs.data.value));
     }
 
 
     render(){
-        return(<div className="input-block">
+        return(<div>
             <input ref="data" value={this.state.data} onChange={this.changed}/>
             <button onClick={this.save}>Add Item</button>
-        </div>);
-    }
+        </div>);    }
 }

@@ -6,6 +6,8 @@ I did this because I had trouble finding a simple, fulling working example and l
 
 This is the first of several demos, each of which adds new pieces of Redux capability and is as much for me as it is for you!
 
+Also, the CSS got about 12 seconds of effort, as 'pretty' is not the focus of this project!
+
 ### Technology
 * react-redux
 * webpack
